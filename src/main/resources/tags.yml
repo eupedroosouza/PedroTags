@@ -1,0 +1,21 @@
+# ____   ____ ____   ____    ___   ______  ___    ___   __ 
+# || \\ ||    || \\  || \\  // \\  | || | // \\  // \\ (( \
+# ||_// ||==  ||  )) ||_// ((   ))   ||   ||=|| (( ___  \\ 
+# ||    ||___ ||_//  || \\  \\_//    ||   || ||  \\_|| \_))                     
+#
+
+
+#Hierarchy é a hierarquia, é responsável pela posição de cada cargo no tab, ela funciona de 0 a Z, sendo o 0 o primeiro e o Z o último.
+tags:
+  dono:
+    display: '&4Dono'
+    prefix: '&4[Dono] '
+    suffix: ''
+    hierarchy: '0'
+    permission: 'tag.dono'
+  membro:
+    display: '&7Membro'
+    prefix: '&7'
+    suffix: ''
+    hierarchy: '1'
+    permission: 'tag.membro'

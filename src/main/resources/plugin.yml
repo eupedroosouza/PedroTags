@@ -1,0 +1,7 @@
+name: ${project.artifactId}
+description: Plugin de Tags para o meu portfólio <3.
+version: ${project.version}
+author: Pedro
+main: ${project.groupId}.Main
+commands:
+  tag:

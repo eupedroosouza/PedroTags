@@ -1,0 +1,10 @@
+# ____   ____ ____   ____    ___   ______  ___    ___   __ 
+# || \\ ||    || \\  || \\  // \\  | || | // \\  // \\ (( \
+# ||_// ||==  ||  )) ||_// ((   ))   ||   ||=|| (( ___  \\ 
+# ||    ||___ ||_//  || \\  \\_//    ||   || ||  \\_|| \_))                     
+#
+
+erro-sintaxe-cmd-tag: '&cUse /tag <tag>.'
+tag-nao-existe: '&c"%tag%" não é uma tag.'
+nao-tem-tag: '&cVocê não tem a tag %tag%&c.'
+tag-trocado-sucesso: '&eSua Tag foi trocada para %tag%&e.'
