@@ -1,4 +1,4 @@
-package com.pedro.tag.app;
+package com.github.eupedroosouza.tag.app;
 
 import java.util.Map.Entry;
 
@@ -12,17 +12,17 @@ import org.bukkit.scoreboard.Team;
 public class Update extends BukkitRunnable{
 
 	public void run() {
-		for(Player jogadores : Bukkit.getOnlinePlayers()) {
+		/*for(Player jogadores : Bukkit.getOnlinePlayers()) {
 			if(jogadores.getScoreboard() == null) {
 				jogadores.setScoreboard(Bukkit.getScoreboardManager().getMainScoreboard());
 			}else {
 				update(jogadores.getScoreboard());
 			}
 		}
-		update(Bukkit.getScoreboardManager().getMainScoreboard());		
+		update(Bukkit.getScoreboardManager().getMainScoreboard());	*/
 	}
 	
-	public static void update(Scoreboard scoreboard) {
+	/*public static void update(Scoreboard scoreboard) {
 		for(Entry<Player, Tag> entry : Tag.getJogadores().entrySet()) {
 			Player jogador = entry.getKey();
 			Tag tag = entry.getValue();
@@ -50,6 +50,6 @@ public class Update extends BukkitRunnable{
 			team.setSuffix(tag.getSuffix());
 			continue;
 		}
-	}
+	}*/
 
 }

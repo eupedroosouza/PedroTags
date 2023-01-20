@@ -2,6 +2,6 @@ name: ${project.artifactId}
 description: Plugin de Tags para o meu portfólio <3.
 version: ${project.version}
 author: Pedro
-main: ${project.groupId}.Main
+main: com.github.eupedroosouza.tag.Main
 commands:
   tag:

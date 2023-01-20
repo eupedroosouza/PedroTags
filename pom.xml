@@ -4,14 +4,13 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.pedro.tag</groupId>
+	<groupId>com.github.eupedroosouza.tag</groupId>
 	<artifactId>PedroTags</artifactId>
-	<version>1.0</version>
+	<version>2.0</version>
 	
 	<build>
-		<defaultGoal>clean package</defaultGoal>
-        <finalName>PedroTags</finalName>
         <sourceDirectory>src/main/java</sourceDirectory>
+
         <resources>
             <resource>
                 <targetPath>.</targetPath>
@@ -66,6 +65,12 @@
             <artifactId>bukkit</artifactId>
             <version>1.8.8-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.24</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 </project>

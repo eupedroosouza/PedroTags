@@ -1,12 +1,9 @@
-package com.pedro.tag.comandos;
+package com.github.eupedroosouza.tag.comandos;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-
-import com.pedro.tag.app.Tag;
-import com.pedro.tag.utils.Messages;
 
 public class ComandoTag implements CommandExecutor{
 
@@ -15,7 +12,8 @@ public class ComandoTag implements CommandExecutor{
 		if(!(sender instanceof Player)) {
 			return false;
 		}else {
-			Player jogador = (Player) sender;
+			return false;
+			/*Player jogador = (Player) sender;
 			if(cmd.getName().equalsIgnoreCase("tag")) {
 				if(args.length == 1) {
 					if(Tag.get(args[0].toLowerCase()) == null) {
@@ -39,9 +37,8 @@ public class ComandoTag implements CommandExecutor{
 					jogador.sendMessage(Messages.ERRO_SINTAXE_CMD_TAG);
 					return false;
 				}
-			}
+			}*/
 		}
-		return false;
 	}
 
 }

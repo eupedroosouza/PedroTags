@@ -4,7 +4,7 @@
 # ||    ||___ ||_//  || \\  \\_//    ||   || ||  \\_|| \_))                     
 #
 
-erro-sintaxe-cmd-tag: '&cUse /tag <tag>.'
-tag-nao-existe: '&c"%tag%" não é uma tag.'
-nao-tem-tag: '&cVocê não tem a tag %tag%&c.'
-tag-trocado-sucesso: '&eSua Tag foi trocada para %tag%&e.'
+syntax_error_tag_cmd: '&cUse /tag <tag>.'
+tag_doesnt_exists: "&c'{tag}' it's not a tag."
+dont_have_the_tag: "&cYou don't have the tag {tag}&c."
+tag_changed: '&eYour tag has been changed to {tag}&e.'
